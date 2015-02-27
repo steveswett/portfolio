@@ -1,0 +1,99 @@
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Override the nav menu text -- was a little too dark to read */
+
+.navbar-inverse .navbar-nav li a {
+  color: #eaeaea;
+}
+
+
+.navbar-inverse .navbar-nav li .dropdown-menu li a {
+  color: #222;
+}
+
+#big-image-background {
+	width: 100%;
+	height: 1000px;
+	background-image: url(../images/black-silver-desktop-1920.jpg);
+	background-size: cover;
+	background-position: center center;
+	/* background-position: top left; */
+    background-repeat: no-repeat;
+
+}
+
+.drift {
+	position:absolute;
+	color:white;
+	display:inline-block;
+}
+
+.skilled {
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+.decent {
+	text-transform: lowercase;
+	font-size: 1.1em;
+}
+
+/* The following are fairly random -- scatter throughout page.  Don't get too close to top because 50px is navbar and fixed. */
+
+.html {	left: 20%; top: 15%; }
+.css {	left: 80%; top: 20%; }
+.javascript {	left: 5%; top: 42%; }
+.jquery { left: 73%; top: 40%; }
+.ajax { left: 74%; top: 72%;	}
+.java {	left: 20%; top: 80%; }
+.restful { left: 12%; top: 60%;	}
+.agile { left: 50%; top: 50%; }
+.jira {	left: 85%; top: 55%; }
+.jsp {	left: 45%; top: 88%; }
+.intellij {	left: 7%; top: 70%; }
+.eclipse {	left: 55%; top: 30%; }
+.perforce {	left: 35%; top: 38%; }
+
+.json {	left: 5%; top: 20%; }
+.git {	left: 70%; top: 27%; }
+.junit {	left: 30%; top: 23%; }
+.angularjs {	left: 42%; top: 57%; }
+.rubyonrails {	left: 58%; top: 65%; }
+.bootstrap {	left: 39%; top: 72%; }
+
+
+.apache {	left: 3%; top: 95%; }
+.tomcat {	left: 90%; top: 90%; }
+.sqlserver {	left: 63%; top: 84%; }
+.postgresql {	left: 32%; top: 92%; }
+.rubymine {	left: 87%; top: 32%; }
+.heroku {	left: 78%; top: 94%; }
+
+
+
+/*
+
+HTML, CSS, Javascript, jQuery, Ajax, Java, REST, Agile, JIRA, JSP, IntelliJ, Eclipse, Perforce,  
+
+JSON, Git, jUnit, AngularJS, Ruby on Rails, Bootstrap, 
+Apache, Tomcat, SQL Server, PostgreSQL, RubyMine, Heroku, 
+
+VirtualBox, RabbitMQ, HttpClient, MBeans, YourKit, Graphite, Grafana, 
+Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
+
+*/
