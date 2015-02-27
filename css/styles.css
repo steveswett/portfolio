@@ -115,7 +115,7 @@ Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
 }
 
 .project-image {
-	width: 100%;
+	max-width: 100%;
 	margin-top: 30px;
 }
 

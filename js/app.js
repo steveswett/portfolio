@@ -20,6 +20,11 @@ function doOnReady()
 	$("#page-maker-project-link").click(function() {
 		jumpToProjectSection('pagemakerproject');
 	})
+
+	$("#tennis-crud-project-link").click(function() {
+		jumpToProjectSection('tenniscrudproject');   
+	})
+
 }
 
 
