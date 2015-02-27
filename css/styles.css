@@ -24,6 +24,7 @@
 
 .navbar-inverse .navbar-nav li .dropdown-menu li a {
   color: #222;
+  cursor: pointer;
 }
 
 #big-image-background {
@@ -97,3 +98,24 @@ VirtualBox, RabbitMQ, HttpClient, MBeans, YourKit, Graphite, Grafana,
 Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
 
 */
+
+.project-section {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 95%;
+}
+
+.project-label {
+	display:inline-block;
+	width: 150px;
+}
+
+.project-text a {
+	text-decoration: underline;
+}
+
+.project-image {
+	width: 100%;
+	margin-top: 30px;
+}
+
