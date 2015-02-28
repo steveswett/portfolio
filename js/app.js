@@ -30,18 +30,18 @@ function doOnReady()
 
 function jumpToProjectSection(pProjectSectionId)
 {
-		// var bodyScrollTop = $("body").scrollTop();
-		window.location.hash = pProjectSectionId;
+	// var bodyScrollTop = $("body").scrollTop();
+	window.location.hash = pProjectSectionId;
 
-		// TODO: problem that may need solving (but is tricky): clicking project nav while project already visible ends up
-		// executing the "scrollBy" below.  Might not be easy to bypass.  Scroll is there due to "fixed" nav header.
+	// TODO: problem that may need solving (but is tricky): clicking project nav while project already visible ends up
+	// executing the "scrollBy" below.  Might not be easy to bypass.  Scroll is there due to "fixed" nav header.
 
-		// console.log("bodyScrollTop = " + bodyScrollTop);
+	// console.log("bodyScrollTop = " + bodyScrollTop);
 
-		// if (bodyScrollTop == 0)
-		// {
+	// if (bodyScrollTop == 0)
+	// {
 
-			window.scrollBy(0, 0 - $(".navbar").height() - parseInt($("#" + pProjectSectionId).css("margin-top")) ) ;
+		window.scrollBy(0, 0 - $(".navbar").height() - parseInt($("#" + pProjectSectionId).css("margin-top")) ) ;
 
-		//}
+	//}
 }

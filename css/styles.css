@@ -18,7 +18,7 @@
 /* Override the nav menu text -- was a little too dark to read */
 
 .navbar-inverse .navbar-nav li a {
-  color: #eaeaea;
+  color: #EAEAEA;
 }
 
 
@@ -27,15 +27,34 @@
   cursor: pointer;
 }
 
+
+/* begin: override Bootstrap media queries to keep navbar looking fairly decent */
+
+/*
+.nav > li {
+	display: inline-block;
+}
+
+.navbar-nav > li {
+	float:left;
+}
+
+.navbar-nav .open .dropdown-menu {
+	position:absolute;
+	background-color: white;
+}
+*/
+
+/* end: override Bootstrap media queries to keep navbar looking fairly decent */
+
+
 #big-image-background {
 	width: 100%;
 	height: 1000px;
 	background-image: url(../images/black-silver-desktop-1920.jpg);
 	background-size: cover;
 	background-position: center center;
-	/* background-position: top left; */
     background-repeat: no-repeat;
-
 }
 
 .drift {
@@ -54,8 +73,12 @@
 	font-size: 1.1em;
 }
 
-/* The following are fairly random -- scatter throughout page.  Don't get too close to top because 50px is navbar and fixed. */
+/* The following are fairly random -- scatter throughout page.  Don't get too close to top because 50px is tucked under fixed navbar.
+	Could have put margin-top: 50px on #competencies, but I prefer not to see that part of the image anyway.
+ */
 
+.softwaredev {	left: 76%; top: 10%; }
+.webapps { left: 10%; top: 10%;}
 .html {	left: 20%; top: 15%; }
 .css {	left: 80%; top: 20%; }
 .javascript {	left: 5%; top: 42%; }
@@ -67,7 +90,7 @@
 .jira {	left: 85%; top: 55%; }
 .jsp {	left: 45%; top: 88%; }
 .intellij {	left: 7%; top: 70%; }
-.eclipse {	left: 55%; top: 30%; }
+.eclipse {	left: 57%; top: 30%; }
 .perforce {	left: 35%; top: 38%; }
 
 .json {	left: 5%; top: 20%; }
