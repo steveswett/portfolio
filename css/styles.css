@@ -1,24 +1,21 @@
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-}
-
-#logo:hover {
-    color: white;
-    text-decoration: none;
-}
-
-
 /* Override the nav menu text -- was a little too dark to read */
 
-.navbar-inverse .navbar-nav li a {
+.navbar {
+	background-color: #222;
+	border: none;
+	padding: 0 4%;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-nav li a,
+.navbar-inverse .navbar-brand {
   color: #EAEAEA;
+}
+
+.navbar-brand {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -26,26 +23,6 @@
   color: #222;
   cursor: pointer;
 }
-
-
-/* begin: override Bootstrap media queries to keep navbar looking fairly decent */
-
-/*
-.nav > li {
-	display: inline-block;
-}
-
-.navbar-nav > li {
-	float:left;
-}
-
-.navbar-nav .open .dropdown-menu {
-	position:absolute;
-	background-color: white;
-}
-*/
-
-/* end: override Bootstrap media queries to keep navbar looking fairly decent */
 
 
 #big-image-background {
