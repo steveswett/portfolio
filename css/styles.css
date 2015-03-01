@@ -210,3 +210,15 @@ Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
 	color: #222;
 	text-decoration: underline;
 }
+
+
+/* The following allows hash link jumping to work even though a 50px tall fixed header is present. */
+
+.project-section:before,
+#aboutsection:before {
+	display: block;
+	content: " ";
+	margin-top: -50px;
+	height: 50px;
+	visibility: hidden;
+}
