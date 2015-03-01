@@ -5,6 +5,8 @@ $(document).ready(function() {
 
 function doOnReady()
 {
+	$("#ema").attr("href", "mail" + "to:" + "steve.swett" + "@" + "comcast.net");
+
 	$("#tennis-project-link").click(function() {
 
 		// Does not appear to like dashes in hash name.  For some reason it couldn't distinguish between
@@ -31,6 +33,10 @@ function doOnReady()
 
 	$("#ruby-app-samples-project-link").click(function() {
 		jumpToProjectSection('rubyappsamplesproject');   
+	});
+
+	$("#about-contact-link").click(function() {
+		jumpToProjectSection('aboutsection');   
 	});
 
 	$(".project-nav .glyphicon-chevron-right").click(function() {

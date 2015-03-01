@@ -29,6 +29,10 @@ body {
   cursor: pointer;
 }
 
+#about-contact-link {
+  cursor: pointer;
+}
+
 
 #big-image-background {
 	width: 100%;
@@ -164,3 +168,45 @@ Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
 	margin-top: 30px;
 }
 
+#aboutsection {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 95%;
+	color: white;
+}
+
+.about-container {
+	margin: 0 auto;
+	max-width: 810px;
+	padding: 0;
+}
+
+#aboutsection h3 {
+	text-align: center;
+}
+
+#aboutsection .nav-tabs a {
+	color: white;
+}
+
+#aboutsection .nav-tabs .active a {
+	color: #222;
+}
+
+#aboutsection .nav-tabs li:hover a {
+	color: blue;
+}
+
+#aboutsection .tab-pane {
+	background-color: white;
+	color: #222;
+	padding: 1em;
+}
+
+
+#aboutsection .tab-pane a,
+#aboutsection .tab-pane a:hover,
+#aboutsection .tab-pane a:visited {
+	color: #222;
+	text-decoration: underline;
+}
