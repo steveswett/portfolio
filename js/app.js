@@ -11,19 +11,19 @@ function doOnReady()
 		// "tennis-project" and "tennis-project-link".
 
 		jumpToProjectSection('tennisproject');   
-	})
+	});
 
 	$("#bb-engage-project-link").click(function() {
 		jumpToProjectSection('bbengageproject');
-	})
+	});
 
 	$("#page-maker-project-link").click(function() {
 		jumpToProjectSection('pagemakerproject');
-	})
+	});
 
 	$("#tennis-crud-project-link").click(function() {
 		jumpToProjectSection('tenniscrudproject');   
-	})
+	});
 
 	$("#java-app-samples-project-link").click(function() {
 		jumpToProjectSection('javaappsamplesproject');   
@@ -31,8 +31,31 @@ function doOnReady()
 
 	$("#ruby-app-samples-project-link").click(function() {
 		jumpToProjectSection('rubyappsamplesproject');   
-	})
+	});
 
+	$(".project-nav .glyphicon-chevron-right").click(function() {
+		jumpToAdjacentProjectSection(this, true);
+	});
+
+	$(".project-nav .glyphicon-chevron-left").click(function() {
+		jumpToAdjacentProjectSection(this, false);
+	});
+
+}
+
+
+function jumpToAdjacentProjectSection(pRightArrowElem, pNextTruePrevFalse)
+{
+	currentProjectSection = $(pRightArrowElem).closest(".project-section");
+	// console.log("currentProjectSectionId = " + currentProjectSectionId);
+
+	var adjacentProjectSection = pNextTruePrevFalse ? currentProjectSection.next(".project-section") : 
+		currentProjectSection.prev(".project-section");
+
+	if (adjacentProjectSection.length)
+	{
+		jumpToProjectSection(adjacentProjectSection.attr("id"));
+	}
 }
 
 

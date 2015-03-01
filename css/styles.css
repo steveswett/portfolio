@@ -1,5 +1,6 @@
 body {
 		background-color: #222;
+		padding-bottom: 50px;
 	}
 
 /* Override the nav menu text -- was a little too dark to read */
@@ -110,6 +111,11 @@ Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
 	color: white;
 }
 
+.project-container {
+	margin: 0 auto;
+	max-width: 810px;
+}
+
 .project-label {
 	display:inline-block;
 	width: 110px;
@@ -132,6 +138,26 @@ Confluence, PuTTY, Delphi, RPG, CL, DB2, CIMS
 	display: inline-block;
 	margin-right: 1em;
 }
+
+.project-nav {
+	display: inline-block;
+	float: right;
+	color: white;	
+}
+
+.project-nav .glyphicon-chevron-left,
+.project-nav .glyphicon-chevron-right {
+	background-color: white;
+	color: #222;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	padding-left: 1px;
+	border-radius: 10px;
+}
+
+.project-nav .glyphicon-chevron-right {
+	margin-left: 0.5em;
+}	
 
 .project-image {
 	max-width: 100%;
