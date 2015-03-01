@@ -25,6 +25,14 @@ function doOnReady()
 		jumpToProjectSection('tenniscrudproject');   
 	})
 
+	$("#java-app-samples-project-link").click(function() {
+		jumpToProjectSection('javaappsamplesproject');   
+	})
+
+	$("#ruby-app-samples-project-link").click(function() {
+		jumpToProjectSection('rubyappsamplesproject');   
+	})
+
 }
 
 
