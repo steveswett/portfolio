@@ -1,6 +1,6 @@
 body {
 		background-color: #222;
-		padding-bottom: 50px;
+		padding-bottom: 1000px;   /* makes last section scroll well on "jump to" */
 	}
 
 /* Override the nav menu text -- was a little too dark to read */
